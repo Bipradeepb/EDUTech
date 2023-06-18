@@ -22,7 +22,7 @@
 * **HTML5** 
 * **CSS**
 * **Vanilla JS**
-<img src="https://raw.githubusercontent.com/fabiospampinato/vscode-projects-plus/master/resources/logo-128x128.png" alt="Logo"/>
+<img src="[https://raw.githubusercontent.com/fabiospampinato/vscode-projects-plus/master/resources/logo-128x128.png](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png)https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="Logo"/>
 
 
 
