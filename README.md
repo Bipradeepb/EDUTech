@@ -22,8 +22,9 @@
 * **HTML5** 
 * **CSS**
 * **Vanilla JS**
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHWTiKSB4cB53qrrKUq9P31xsER2sUnUICFA&usqp=CAU
-" height="100">
+
+![This is an alt text.]("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHWTiKSB4cB53qrrKUq9P31xsER2sUnUICFA&usqp=CAU")
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHWTiKSB4cB53qrrKUq9P31xsER2sUnUICFA&usqp=CAU" height="100">
 
 
 
