@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .title h1{
+    font-size: 1.8rem;
+    color:whitesmoke;
+    font-family: 'Noto sans',sans-serif;
+    padding: 25px;
+}
+
+.footer-container .title img{
+   height:auto;
+   margin:auto;
+   width:200px;
+   object-fit: contain;
+   background-color: white;
+   margin: 20px;
+   padding: 10px;
+}
+
+.footer-container .address{
+   display: flex;
+   /* flex-direction: column; */
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-container .address p{
+    font-size: 1.1rem;
+    color:whitesmoke;
+    font-family: 'Noto sans',sans-serif;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.address i{
+    color:red;
+}
+
+/* .address i{
+    font-size: 1.1rem;
+    color:whitesmoke;
+    font-family: 'Noto sans',sans-serif;
+    padding: 10px 10px;
+    cursor: pointer;
+} */
+
+.footer-container .footer-contact{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-container .footer-contact p{
+    font-size: 1.1rem;
+    color:whitesmoke;
+    font-family: 'Noto sans',sans-serif;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.footer-container .footer-contact i{
+    font-size: 1.1rem;
+    color:whitesmoke;
+    /* font-family: 'Noto sans',sans-serif; */
+    padding: 10px 10px;
+    cursor: pointer;
+
+}
+
+.footer-container .footer-email{
+    display: flex;
+   /* flex-direction: column; */
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-container .footer-email p{
+    font-size: 1.1rem;
+    color:whitesmoke;
+    font-family: 'Noto sans',sans-serif;
+    padding: 10px 10px;
+}
+
+.footer-container .footer-email i{
+    font-size: 1.1rem;
+    color:whitesmoke;
+    /* font-family: 'Noto sans',sans-serif; */
+    padding: 10px 10px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons span{
+    font-size: 1.1rem;
+    color:whitesmoke;
+    padding: 10px 10px;
+}
+
+.footer-icons i{
+    font-size: 1.1rem;
+    cursor:pointer;
+    color: whitesmoke;
+}
+
+.footer-container i:hover{
+    transform:scale(1.08);
+    transition:transform 0.3s ease;
+}
+
+
+.footer-located{
+    color:whitesmoke;
+    text-align: center;
+    /* padding: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px;
+    gap: 20px;
+}
+
+.footer-located p{
+    color: whitesmoke;
+    font-family: 'Noto sans',sans-serif;
+    font-size:0.75rem;
+}
+
+.footer-located ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-located li{
+    color:whitesmoke;
+    font-family: 'Noto sans',sans-serif;
+    font-size: 0.75rem;
+}
+
+.footer-located li span{
+   position: relative;
+   left:-5px;
+   padding-right: 4px;
+}
+/* .footer-icons i{
+    font-size: 1.1rem;
+    color:white;
+    font-family: 'Noto sans',sans-serif;
+    padding: 10px 10px;
+} */
+
+@media screen and (max-width:440px) {
+    .footer-container .address span{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .top-companies-container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .top-companies-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+
+    .Top-companies .first{
+        font-size:2.4rem;
+    }
+
+    .career{
+        font-size: 3.3rem;
+    }
+
+    .Top-companies i{
+        font-size:2.4rem;
+    }
+
+    .Top-companies .second{
+        font-size:1.5rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .get-involved{
+        font-size:1.2rem;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .top-companies-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(12,200px);
+    }
+
+    .special{
+        flex-direction: column-reverse;
+    }
+
+    .Top-companies .first{
+        font-size:2.3rem;
+    }
+
+    .career{
+        font-size: 3.11rem;
+    }
+
+    .today{
+        display: block;
+    }
+
+    .Top-companies i{
+        font-size:2.3rem;
+    }
+
+    .Top-companies .second{
+        font-size:1.3rem;
+    }
+
+    .get-involved{
+        font-size:1rem;
+    }
+
+    .company{
+        width:90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .company img{
+        height: 80%;
+        width:80%;
+    }
+
+    .Top-companies i{
+        padding: 0;
+    }
+
+    .Top-companies .first{
+        padding: 0 0 30px 0;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    .top-companies-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(12,150px);
+    }
+    
+    .special{
+        flex-direction: column-reverse;
+    }
+
+    .Top-companies i{
+        padding: 0;
+    }
+
+    .Top-companies .first{
+        padding: 0 0 30px 0;
+    }
+
+    .Top-companies .first{
+        font-size:2rem;
+    }
+
+    .banner-girl{
+        height:250px;
+    }
+
+    .career{
+        font-size: 2.8rem;
+    }
+
+    .Top-companies i{
+        font-size:2rem;
+    }
+
+    .Top-companies .second{
+        font-size:1rem;
+    }
+
+    .get-involved{
+        font-size:0.9rem;
+    }
+
+    .company{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .company img{
+        height: 80%;
+        width:100%;
+    }
+
+}
+
+@media screen and (max-width:325px) {
+
+    .Top-companies .first{
+        font-size:2.6rem;
+    }
+
+    .career{
+        font-size: 3.3rem;
+    }
+
+    .Top-companies i{
+        font-size:2.5rem;
+    }
+
+    .career{
+        display: block;
+        letter-spacing: 1.5px;
+    }
+}
+
